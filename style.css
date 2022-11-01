@@ -1,0 +1,101 @@
+.row{
+    padding:5px;
+
+}
+.column{
+    float: left;
+
+    height: 50px;
+    width: 20%;
+}
+    
+.column1{
+    float: left;
+
+    height: 50px;
+    width: 30%;
+}
+.row1{
+    border-style: solid;
+
+}
+
+.row1_column{
+    float: left;
+
+height: 50px;
+width: 25%;
+text-align:center;
+cursor:pointer;
+
+border-color: #2196F3;
+  color: dodgerblue;
+}
+
+.btn {
+    border: 2px solid blue;
+    background-color: light gray;
+    color:black;
+    cursor: pointer;    
+}
+.A{
+    border-color: #2196F3;
+    color: dodgerblue;
+}
+
+.A:hover{
+    background: #2196F3;
+    color:white;
+}
+
+
+
+.dropdown{
+
+    width: 30rem;
+    position: relative;
+
+}
+
+.dropdown:hover .dropdown-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-select{
+    padding: 1.5rem;
+    border-radius: 4px;
+    background-color: rgb(247, 242, 242);
+    text-align: center;
+    color: rgb(16, 16, 16);
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.dropdown-list{
+    border-radius: 4px;
+    background-color:rgb(247, 242, 242) ;
+    position:absolute;
+    visibility: hidden;
+    opacity: 0;
+    transform: opacity 0.2s linear ,visibility 0.2s linear;
+    
+    
+    
+    
+}
+
+.dropdown-list_item{
+    padding: 0.20rem;
+    font-size: 12px;
+
+}
+
+
+.p1{
+    text-align: center;
+    color: red;
+
+}
